@@ -1,0 +1,25 @@
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  h4 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .fc-daygrid-event {
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+    color: white;
+    font-size: 0.9rem;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .fc-day:hover {
+    background-color: #f0f0f0 !important;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,18 @@
+.profile-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .profile-form {
+    max-width: 500px;
+    margin-top: 20px;
+  }
+  
+  .profile-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .profile-form label {
+    font-weight: 500;
+  }
+  

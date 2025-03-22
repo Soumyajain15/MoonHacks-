@@ -1,0 +1,252 @@
+/* ================================
+   🌐 Global Styles
+================================ */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+.container {
+  max-width: 100%;
+}
+
+/* ================================
+   🟣 Sidebar Styles
+================================ */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #212529;
+  color: white;
+  padding-top: 20px;
+}
+
+.sidebar h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  cursor: pointer;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.sidebar ul li span {
+  margin-left: 10px;
+}
+
+.sidebar ul li.active-menu,
+.sidebar ul li:hover {
+  background-color: #495057;
+  border-radius: 5px;
+}
+
+/* ================================
+   🔵 Topbar Styles
+================================ */
+.topbar {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #dee2e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar input {
+  width: 50%;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.bell-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #495057;
+  transition: color 0.3s;
+}
+
+.bell-icon:hover {
+  color: #007bff;
+}
+
+.user-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #495057;
+}
+
+/* ================================
+   📊 Dashboard Card Styles
+================================ */
+.dashboard-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard-card h4 {
+  margin-bottom: 5px;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.dashboard-card p {
+  margin: 0;
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+/* ================================
+   📈 Chart and Member Stats
+================================ */
+.card {
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card h6 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* ================================
+   🟢 Recent Activity
+================================ */
+.alert {
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  color: #856404;
+}
+
+.alert-info {
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  color: #0c5460;
+}
+
+/* ================================
+   ✅ Task Manager
+================================ */
+.task-card {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.task-card input {
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 8px 12px;
+  width: 100%;
+}
+
+.btn-success,
+.btn-danger {
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.btn-success:hover {
+  background-color: #28a745;
+}
+
+.btn-danger:hover {
+  background-color: #dc3545;
+}
+
+/* ================================
+   🎉 Event Cards
+================================ */
+.event-card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-top: 20px;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.event-card-body {
+  padding: 12px;
+}
+
+.event-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.event-card-date {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.event-card-rating {
+  color: #ffc107;
+  font-size: 1rem;
+}
+
+/* ================================
+   📱 Responsive Design
+================================ */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .topbar input {
+    width: 100%;
+  }
+
+  .event-card img {
+    height: 120px;
+  }
+}
+

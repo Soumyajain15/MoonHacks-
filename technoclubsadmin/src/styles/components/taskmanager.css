@@ -1,0 +1,95 @@
+/* ===== Task Manager Styles ===== */
+.task-manager {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  /* Input and Button Styles */
+  .task-input {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .task-input input {
+    flex: 1;
+    border-radius: 5px;
+  }
+  
+  .task-input button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  /* Task List */
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .task-list li {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+  }
+  
+  .task-list li:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Completed Task */
+  .task-list li.completed {
+    background-color: #d4edda;
+  }
+  
+  .task-text {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Task Actions */
+  .task-actions {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .task-actions button {
+    border-radius: 5px;
+  }
+  
+  /* No Tasks Message */
+  .no-tasks {
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+  }
+  
+  /* For Dark Mode */
+  .dark-mode .task-manager {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+  }
+  
+  .dark-mode .task-list li {
+    background-color: #2e2e2e;
+  }
+  
+  .dark-mode .task-list li.completed {
+    background-color: #3a4d39;
+  }
+  
+  .dark-mode .task-input input {
+    background-color: #2e2e2e;
+    color: #fff;
+    border: 1px solid #555;
+  }
+  

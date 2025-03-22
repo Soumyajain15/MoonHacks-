@@ -1,0 +1,88 @@
+/* ===== Analytics Page Styles ===== */
+.analytics-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Analytics Cards Row */
+  .analytics-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .analytics-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .analytics-card .icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .analytics-card h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .analytics-card p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  /* Chart Container */
+  .chart-container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .chart-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Grid Layout for Charts */
+  .row {
+    margin-top: 10px;
+  }
+  
+  .col-md-3,
+  .col-md-6 {
+    padding: 10px;
+  }
+  
+  /* For Dark Mode */
+  .dark-mode .analytics-container {
+    background-color: #121212;
+    color: #f1f1f1;
+  }
+  
+  .dark-mode .analytics-card {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+  }
+  
+  .dark-mode .chart-container {
+    background-color: #242424;
+  }
+  
+  /* Chart Responsiveness */
+  @media (max-width: 768px) {
+    .col-md-6 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
